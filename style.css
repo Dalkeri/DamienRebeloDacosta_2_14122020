@@ -1,0 +1,117 @@
+header
+{
+    border: 1px solid black;
+}
+
+#liens_haut
+{
+    border: 1px solid green;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav
+{
+    border: 3px solid red;
+    display: flex;
+    /* align-items: stretch; */
+}
+nav ul
+{
+    border: 1px solid green;
+    list-style-type: none;
+    display: flex;
+    align-content: flex-end;
+}
+nav ul li
+{
+    margin-right: 25px;
+}
+nav ul li a
+{
+    font-size: 1.5em;
+    color: black;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: blue;
+    border-top: 3px solid blue;
+}
+
+#inscription a
+{
+    font-size: 1.5em;
+    padding-top: 15px;
+    color: blue;
+    display:flex;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+#slogan p
+{
+    line-height: 1.6;
+}
+
+#recherche
+{
+    /* border:1px solid black; */
+    display: flex;
+    align-items: stretch;
+    height: 40px;
+}
+
+#recherche_ville
+{
+    font-size: 1.1em;
+    font-weight: bold ;
+    resize: none;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 85%;
+    padding-left: 10px;
+}
+.bouton_bleu
+{
+
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 0px 7px 7px 0px; 
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#filtres
+{
+    margin-top: 25px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;;
+}
+.filtre
+{
+    margin-left: 15px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

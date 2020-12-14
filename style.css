@@ -5,45 +5,57 @@ header
 
 #liens_haut
 {
-    border: 1px solid green;
-    height: 70px;
+    /* border: 1px solid green; */
+    height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
 nav
 {
-    border: 3px solid red;
+    height: 50px;
+    /* border: 1px solid red; */
     display: flex;
-    /* align-items: stretch; */
+    align-items: stretch;
 }
 nav ul
 {
-    border: 1px solid green;
+    margin: 0px;
+    /* border: 1px solid green; */
     list-style-type: none;
     display: flex;
-    align-content: flex-end;
+    align-self: stretch;
+
 }
-nav ul li
+nav li
 {
     margin-right: 25px;
+    display:flex;
+    align-self: flex-end;
 }
-nav ul li a
+
+nav a
 {
+    /* border: 1px solid pink; */
+    height: 50px;
     font-size: 1.5em;
     color: black;
-    padding-top: 3px;
     text-decoration: none;
+    display: flex;
+    align-items: flex-end;
 }
 
 nav a:hover
 {
     color: blue;
-    border-top: 3px solid blue;
+    border-top: 4px solid blue;
+
 }
+
 
 #inscription a
 {
+    /* border:1px solid black; */
     font-size: 1.5em;
     padding-top: 15px;
     color: blue;

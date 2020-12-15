@@ -1,3 +1,8 @@
+/* #bloc_page
+{
+    width: 1024px;
+    margin: auto;
+} */
 header
 {
     border: 1px solid black;
@@ -29,6 +34,7 @@ nav ul
 }
 nav li
 {
+    height: 50px;
     margin-right: 25px;
     display:flex;
     align-self: flex-end;
@@ -36,8 +42,8 @@ nav li
 
 nav a
 {
-    /* border: 1px solid pink; */
-    height: 50px;
+    /* border: 2px solid rgb(104, 40, 51); */
+    /* height: 50px; */
     font-size: 1.5em;
     color: black;
     text-decoration: none;
@@ -49,17 +55,14 @@ nav a:hover
 {
     color: blue;
     border-top: 4px solid blue;
-
 }
-
 
 #inscription a
 {
-    /* border:1px solid black; */
     font-size: 1.5em;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     color: blue;
-    display:flex;
+    /* display:flex; */
     text-decoration: none;
     margin-right: 20px;
 }
@@ -78,6 +81,16 @@ nav a:hover
     height: 40px;
 }
 
+#map_icon
+{
+    background-color: rgb(223, 222, 222);
+    border-radius: 7px 0px 0px 7px; 
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #recherche_ville
 {
     font-size: 1.1em;
@@ -86,8 +99,10 @@ nav a:hover
     display: flex;
     align-self: center;
     justify-content: center;
-    height: 85%;
+    height: 90%;
     padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(223, 222, 222);
 }
 .bouton_bleu
 {
@@ -104,26 +119,74 @@ nav a:hover
     justify-content: center;
 }
 
+
 #filtres
 {
     margin-top: 25px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
-    height: 50px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+}
+#filtres h4
+{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#choix_filtre
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 .filtre
 {
+    border: 2px solid rgb(223, 222, 222);
     margin-left: 15px;
-    padding: 15px;
-    border: 2px solid grey;
+    height: 35px;
     border-radius: 25px 25px 25px 25px;
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
+    align-items: stretch;
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+.filtre i
+{
+    width: 35px;
+    
+    /* border: 1px solid  rgb(163, 11, 252); */
+    border-radius: 50%;
+    background-color: rgb(223, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+.filtre span
+{
+    /* border: 1px solid rgb(74, 12, 110); */
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+    align-items: center;
+}
+
+#phrase_info
+{
+    display: flex;
+    align-items: center;
+}
+#phrase_info i
+{
+    color: blue;
+    background-color: rgb(223, 222, 222);
+    border : 1px solid rgb(223, 222, 222);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
 }

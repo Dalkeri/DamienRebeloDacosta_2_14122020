@@ -1,8 +1,8 @@
-/* #bloc_page
+#bloc_page
 {
-    width: 1024px;
+    max-width: 1440px;
     margin: auto;
-} */
+}
 header
 {
     border: 1px solid black;
@@ -34,8 +34,11 @@ nav ul
 }
 nav li
 {
+    /* border: 1px solid green; */
     height: 50px;
-    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
     display:flex;
     align-self: flex-end;
 }
@@ -51,7 +54,7 @@ nav a
     align-items: flex-end;
 }
 
-nav a:hover
+nav li:hover
 {
     color: blue;
     border-top: 4px solid blue;
@@ -63,6 +66,7 @@ nav a:hover
     /* padding-top: 15px; */
     color: blue;
     /* display:flex; */
+    margin-left: 10px;
     text-decoration: none;
     margin-right: 20px;
 }

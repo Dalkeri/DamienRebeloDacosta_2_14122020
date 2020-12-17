@@ -211,12 +211,13 @@ nav a:hover
 
 #hebergement
 {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     width: 60%;
     margin-right: 5%;
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(242,242,242);
+    ;
     
 }
 
@@ -227,26 +228,31 @@ nav a:hover
     margin-left: 10px;
 }
 
+#hebergement span
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 #cartes_hebergements
 {
     margin-top: 50px;
-    border: 5px solid pink;
+    /* border: 5px solid pink; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-        /* flex-direction: row-reverse; */
-
+    /* flex-basis: 0; */
 }
 
 .carte_hebergement
 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 30%;
-    /* height: 190px; */
-    margin-bottom: 5%;
+    height: 190px;
+    /* margin-bottom: 3%; */
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 5px 5px 0px 0px rgba(232,232,232,0.5);
+    box-shadow: 5px 5px 1px 1px rgba(232,232,232,0.5);
     display: flex;
     flex-direction: column;
     color: black;
@@ -269,28 +275,103 @@ nav a:hover
 }
 .notation
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 13px;
     margin-top: 5px;
 }
 
-.notation .fas
+.notation .full
 {
     color: blue;
 }
-.notation .far
+.notation .empty
 {
     color: rgb(223, 222, 222);
 }
 
 
+
 #populaire
 {
-    border: 3px solid blue;
-
-    display: flex;
+    /* border: 3px solid blue; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
     width: 30%;
+    background-color: rgb(242,242,242);
+    position: relative;
 }
+/* #populaire #text_logo{border:1px solid black;} */
+#populaire h4
+{
+    /* border:1px solid black; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left:10px;
+}
+#populaire .chart
+{
+border:1px solid black;
+    position: absolute;
+    margin-top: 12px;
+    margin-left:90%;
+}
+#cartes_populaires
+{
+    margin-top: 10%;
+    /* border:1px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#populaire .carte_populaire
+{
+    /* border:1px solid black; */
+    width: 85%;
+    height: 140px;
+    margin-bottom: 4%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 1px 1px rgba(232,232,232,0.5);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start; 
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+#populaire .carte_populaire img
+{
+    /* border:1px solid black; */
+    object-fit: cover;
+    width: 40%;
+    height: 90%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border-radius: 20px 0px 0px 20px;
+    align-self: center;
+}
+#populaire .carte_populaire p
+{
+    /* border:1px solid black; */
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 50%;
+}
+#populaire .carte_populaire .notation
+/* { */
+    bottom: 15px;
+    right: 90px;
+    border:1px solid black;
+    position: absolute;
+}
+
+
+
 
 #activite
 {

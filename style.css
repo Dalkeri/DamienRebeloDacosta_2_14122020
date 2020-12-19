@@ -1,8 +1,16 @@
+body
+{
+    margin:0;
+}
 #bloc_page
 {
     max-width: 1440px;
     min-width: 320px;
     margin: auto;
+}
+#bloc_nofooter
+{
+    margin-left: 50px;
 }
 header
 {

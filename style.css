@@ -478,3 +478,44 @@ nav a:hover
 
 
 /* SECTION FOOTER */
+footer
+{
+    margin-top: 40px;
+    display:flex;
+    background-color:rgb(242,242,242);
+}
+footer ul
+{
+    list-style-type: none;
+    line-height: 170%;
+    padding: 0;
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer #apropos
+{
+    margin-top: 20px;
+    border:1px solid black;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+footer #nos_hebergements
+{
+    margin-top: 20px;
+    border:1px solid black;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+footer #assistance
+{
+    margin-top: 20px;
+    border:1px solid black;
+    /* margin-left: 50px; */
+    margin-bottom: 50px;
+}

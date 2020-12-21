@@ -378,9 +378,9 @@ nav a:hover
     /* border:1px solid black; */
     object-fit: cover;
     width: 40%;
-    height: 90%;
-    margin-left: 1%;
-    margin-top: 1.5%;
+    height: 93%;
+    margin-left: 2%;
+    margin-top: 2%;
     border-radius: 20px 0px 0px 20px;
     align-self: center;
 }

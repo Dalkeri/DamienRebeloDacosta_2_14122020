@@ -310,11 +310,7 @@ nav a:hover
     margin: 5px 0px 0px 10px;
     font-size: 0.9em;
 }
-.notation
-{
-    margin-left: 10px;
-    margin-top: 5px;
-}
+
 
 .notation .full
 {
@@ -323,7 +319,7 @@ nav a:hover
 }
 .notation .empty
 {
-    color: rgb(223, 222, 222);
+    color: #F2F2F2;
     font-size: 0.8em;
 }
 
@@ -345,33 +341,70 @@ nav a:hover
 {
     position: absolute;
     margin-top: 25px;
-    margin-left:90%;
+    margin-left:85%;
     font-size: 1.2em;
 }
-#cartes_populaires
+
+@media screen and (min-width: 1024px)
 {
-    margin-top: 65px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-#populaire .carte_populaire
-{
-    width: 85%;
-    height: 140px;
-    margin-bottom:5%;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start; 
-    flex-wrap: wrap;
-    color: black;
-    text-decoration: none;
-    position: relative;
-    transition: width 0.2s, height 0.2s;
+    .notation
+    {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    #cartes_populaires
+    {
+        margin-top: 65px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #populaire .carte_populaire
+    {
+        width: 85%;
+        height: 140px;
+        margin-bottom:5%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start; 
+        flex-wrap: wrap;
+        color: black;
+        text-decoration: none;
+        position: relative;
+        transition: width 0.2s, height 0.2s;
+    }
+   
+    #populaire .carte_populaire img
+    {
+        object-fit: cover;
+        width: 40%;
+        height: 93%;
+        margin-left: 2%;
+        margin-top: 2%;
+        border-radius: 20px 0px 0px 20px;
+        align-self: center;
+    }
+    #populaire .carte_populaire p
+    {
+        font-size: 0.9em;
+        margin-left: 12px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        width: 50%;
+    }
+    #populaire .carte_populaire .notation
+    {
+        /* bottom: 15px; */
+        bottom: 10%;
+        left: 42%;
+        /* right: 90px; */
+        /* border:1px solid black; */
+        position: absolute;
+    }
 }
 #populaire .carte_populaire:hover
 {
@@ -380,34 +413,6 @@ nav a:hover
     transform: scale(1.1);
     box-shadow: 0px 0px 25px black;
 }
-#populaire .carte_populaire img
-{
-    object-fit: cover;
-    width: 40%;
-    height: 93%;
-    margin-left: 2%;
-    margin-top: 2%;
-    border-radius: 20px 0px 0px 20px;
-    align-self: center;
-}
-#populaire .carte_populaire p
-{
-    font-size: 0.9em;
-    margin-left: 12px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    width: 50%;
-}
-#populaire .carte_populaire .notation
-{
-    /* bottom: 15px; */
-    bottom: 10%;
-    left: 42%;
-    /* right: 90px; */
-    /* border:1px solid black; */
-    position: absolute;
-}
-
 
 #activite
 {
@@ -417,6 +422,8 @@ nav a:hover
     width: 95%;
     height: 500px;
 }
+
+
 #activite h4
 {
     position: absolute;
@@ -533,20 +540,24 @@ footer a
 footer #apropos
 {
     margin-top: 20px;
-    margin-right: 200px;
-    margin-bottom: 50px;
-    margin-left: 35px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
 }
 
 footer #nos_hebergements
 {
     margin-top: 20px;
-    margin-right: 200px;
-    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50x;
+    margin-bottom: 20px;
 }
 
 footer #assistance
 {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-bottom: 20px;
 }

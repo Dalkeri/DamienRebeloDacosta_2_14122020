@@ -18,6 +18,12 @@ header
 {
     /* border: 1px solid black; */
     margin-bottom: 25px;
+    position: relative;
+}
+header #logo
+{
+    position: absolute;
+    top: 30px;
 }
 
 #liens_haut
@@ -57,8 +63,6 @@ nav li
 
 nav a
 {
-    /* border: 2px solid rgb(104, 40, 51); */
-    /* height: 50px; */
     padding-left: 12px;
     padding-right: 12px;
     font-size: 1.5em;
@@ -77,9 +81,7 @@ nav a:hover
 #inscription a
 {
     font-size: 1.5em;
-    /* padding-top: 15px; */
     color: #0065FC;
-    /* display:flex; */
     margin-left: 10px;
     text-decoration: none;
     margin-right: 50px;
@@ -88,6 +90,7 @@ nav a:hover
 
 #slogan p
 {
+    margin-top: 50px;
     line-height: 1.6;
 }
 
@@ -101,7 +104,7 @@ nav a:hover
 
 #map_icon
 {
-    background-color: rgb(223, 222, 222);
+    background-color:#F2F2F2;
     border-radius: 15px 0px 0px 15px; 
     width: 40px;
     display: flex;
@@ -159,7 +162,7 @@ nav a:hover
 }
 .filtre
 {
-    border: 2px solid rgb(223, 222, 222);
+    border: 2px solid #F2F2F2; /*223 222 222*/
     margin-left: 15px;
     height: 35px;
     border-radius: 25px 25px 25px 25px;
@@ -212,8 +215,8 @@ nav a:hover
 #phrase_info i
 {
     color: #0065FC;
-    background-color: rgb(223, 222, 222);
-    border : 1px solid rgb(223, 222, 222);
+    background-color:#F2F2F2;
+    border : 1px solid #F2F2F2;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -233,29 +236,32 @@ nav a:hover
 
 #hebergement
 {
-    /* border: 3px solid green; */
-    width: 63%;
-    margin-right: 4%;
+    width: 64%;
+    margin-right: 3%;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(242,242,242);
+    background-color:#F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    
 }
-
+/* #hebergement #titre_section
+{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-weight: bolder;
+} */
 #hebergement h4
 {
     position: absolute;
     margin-top: 25px;
     margin-left: 40px;
+    font-weight: Extra-bold;
 }
 
 #hebergement span
 {
-
     margin-top: 15px;
     margin-left: 40px;
-    /* margin-bottom: 0px; */
 }
 
 #cartes_hebergements
@@ -263,11 +269,9 @@ nav a:hover
     margin-top: 65px;
     margin-right: 30px;
     margin-left: 20px;
-    /* border: 5px solid pink; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* flex-basis: 0; */
 }
 
 .carte_hebergement
@@ -277,7 +281,7 @@ nav a:hover
     /* margin-bottom: 3%; */
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(242,242,242,0.5);
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     color: black;
@@ -303,13 +307,12 @@ nav a:hover
 
 .carte_hebergement p
 {
-    margin: 5px 0px 0px 13px;
+    margin: 5px 0px 0px 10px;
     font-size: 0.9em;
 }
 .notation
 {
-    /* border: 1px solid black; */
-    margin-left: 13px;
+    margin-left: 10px;
     margin-top: 5px;
 }
 
@@ -328,12 +331,11 @@ nav a:hover
 {
     width: 30%;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgb(242,242,242);
+    background-color: #F2F2F2;
     position: relative;
 }
 #populaire h4
 {
-    /* border:1px solid black; */
     position: absolute;
     margin-top: 25px;
     margin-left:40px;
@@ -361,7 +363,7 @@ nav a:hover
     margin-bottom:5%;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 5px 5px 1px 1px rgba(242,242,242,0.6);
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     align-content: flex-start; 
@@ -420,7 +422,7 @@ nav a:hover
     position: absolute;
     margin: 0;
     top: 15px;
-    left: 30px;
+    left: 5px;
 }
 #cartes_activites
 {
@@ -435,7 +437,7 @@ nav a:hover
     text-decoration: none;
     color: black;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(242,242,242,0.5);
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
     transition: width 0.2s, height 0.2s;
 }
 .carte_activite:hover
@@ -514,7 +516,7 @@ footer
 {
     margin-top: 40px;
     display:flex;
-    background-color:rgb(242,242,242);
+    background-color:#F2F2F2;
 }
 footer ul
 {

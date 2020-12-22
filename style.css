@@ -10,13 +10,9 @@ body
     min-width: 320px;
     margin: auto;
 }
-#bloc_nofooter
-{
-    margin-left: 35px;
-}
+
 header
 {
-    /* border: 1px solid black; */
     margin-bottom: 25px;
     position: relative;
 }
@@ -26,66 +22,74 @@ header #logo
     top: 30px;
 }
 
-#liens_haut
-{
-    /* border: 1px solid green; */
-    height: 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-nav
-{
-    height: 50px;
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: stretch;
-}
-nav ul
-{
-    margin: 0px;
-    /* border: 1px solid green; */
-    list-style-type: none;
-    display: flex;
-    align-self: stretch;
+/* @media screen and (min-width: 768px)
+{ */
+    #bloc_nofooter
+    {
+        margin-left: 35px;
+    }
 
-}
-nav li
-{
-    /* border: 1px solid green; */
-    height: 50px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
-    margin-right: 0px;
-    display:flex;
-    align-self: flex-end;
-}
+    #liens_haut
+    {
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    nav
+    {
+        height: 50px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: stretch;
+    }
+    nav ul
+    {
+        margin: 0px;
+        /* border: 1px solid green; */
+        list-style-type: none;
+        display: flex;
+        align-self: stretch;
+    
+    }
+    nav li
+    {
+        /* border: 1px solid green; */
+        height: 50px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        margin-right: 0px;
+        display:flex;
+        align-self: flex-end;
+    }
+    
+    nav a
+    {
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 1.5em;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    nav a:hover
+    {
+        color: #0065FC;
+        border-top: 4px solid #0065FC;
+    }
+    
+    #inscription a
+    {
+        font-size: 1.5em;
+        color: #0065FC;
+        margin-left: 10px;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+/* } */
 
-nav a
-{
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 1.5em;
-    color: black;
-    text-decoration: none;
-    display: flex;
-    align-items: flex-end;
-}
-
-nav a:hover
-{
-    color: #0065FC;
-    border-top: 4px solid #0065FC;
-}
-
-#inscription a
-{
-    font-size: 1.5em;
-    color: #0065FC;
-    margin-left: 10px;
-    text-decoration: none;
-    margin-right: 50px;
-}
 
 
 #slogan p
@@ -127,7 +131,6 @@ nav a:hover
 }
 .bouton_bleu
 {
-
     font-size: 1.2em;
     text-align: center;
     text-decoration: none;
@@ -139,6 +142,11 @@ nav a:hover
     flex-direction: column;
     justify-content: center;
 }
+.icon_recherche
+{
+    display: none;
+}
+
 
 
 #filtres
@@ -350,8 +358,8 @@ nav a:hover
     margin-top: 5px;
 }
 
-@media screen and (min-width: 1024px)
-{
+/* @media screen and (min-width: 1024px)
+{ */
     #cartes_populaires
     {
         margin-top: 65px;
@@ -405,7 +413,7 @@ nav a:hover
         /* border:1px solid black; */
         position: absolute;
     }
-}
+/* } */
 #populaire .carte_populaire:hover
 {
     -webkit-transform: scale(1.1); 

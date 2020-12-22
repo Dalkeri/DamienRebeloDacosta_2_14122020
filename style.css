@@ -249,7 +249,7 @@ header #logo
 {
     /* order: 2; */
     width: 64%;
-    min-width: 760px;
+    min-width: 600px;
     margin-right: 3%;
     display: flex;
     /* flex-wrap: wrap; */
@@ -291,11 +291,11 @@ header #logo
 .carte_hebergement
 {
     width: 30%;
-    margin-right: 3%;
-    min-width: 250px; 
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    min-width: 200px; 
     height: 190px;
     margin-bottom: 3%;
-    /* margin-right: 3%; */
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);

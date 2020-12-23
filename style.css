@@ -27,6 +27,7 @@ header #logo
     #bloc_nofooter
     {
         margin-left: 35px;
+        margin-right: 35px;
     }
 
     #liens_haut
@@ -239,18 +240,24 @@ header #logo
 {
     /* border: 5px solid black; */
     display: flex;
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
     flex-wrap: wrap;
+    flex-basis: max-content;
+    justify-content: center;
+    
     /* justify-content: space-evenly; */
     /* margin-right: 5%; */
+
 }
 
 #hebergement
 {
-    /* order: 2; */
+    order: 2;
     width: 64%;
-    min-width: 600px;
-    margin-right: 3%;
+    min-width: 320px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    flex: 2 1 60%;
     display: flex;
     /* flex-wrap: wrap; */
     background-color:#F2F2F2;
@@ -276,7 +283,6 @@ header #logo
 
 #cartes_hebergements
 {
-    /* order: 2; */
     margin-top: 65px;
     /* min-width: 675px; */
     /* margin-right: 3%; */
@@ -290,10 +296,16 @@ header #logo
 
 .carte_hebergement
 {
-    width: 30%;
+    width: 90%;
+
     margin-right: 1.5%;
     margin-left: 1.5%;
     min-width: 200px; 
+    flex: 2 1 25%;
+    height: 140px;
+    margin-right: 1.5%;
+    margin-left: 1.5%; 
+
     height: 190px;
     margin-bottom: 3%;
     background-color: white;
@@ -340,9 +352,13 @@ header #logo
 
 #populaire
 {
-    /* order: 1; */
+    order: 1;
     width: 30%;
     min-width: 300px;
+    flex: 1 2 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
     position: relative;
@@ -378,11 +394,19 @@ header #logo
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+
+        flex-basis: max-content;
     }
     #populaire .carte_populaire
     {
         width: 85%;
+
+        min-width: 255px;
+        flex: 2 1 25%;
         height: 140px;
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+
         margin-bottom:5%;
         background-color: white;
         border-radius: 20px 20px 20px 20px;
@@ -401,9 +425,9 @@ header #logo
     {
         object-fit: cover;
         width: 40%;
-        height: 93%;
-        margin-left: 2%;
-        margin-top: 2%;
+        height: 95%;
+        margin-left: 5px;
+        margin-top: 5px;
         border-radius: 20px 0px 0px 20px;
         align-self: center;
     }
@@ -435,7 +459,7 @@ header #logo
 
 #activite
 {
-    /* order: 3; */
+    order: 3;
     margin-top: 30px;
     position: relative;
     /* border:3px solid green; */

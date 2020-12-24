@@ -22,74 +22,71 @@ header #logo
     top: 30px;
 }
 
-/* @media screen and (min-width: 768px)
-{ */
-    #bloc_nofooter
-    {
-        margin-left: 35px;
-        margin-right: 35px;
-    }
+#bloc_nofooter
+{
+    margin-left: 35px;
+    margin-right: 35px;
+}
 
-    #liens_haut
-    {
-        height: 50px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-    nav
-    {
-        height: 50px;
-        /* border: 1px solid red; */
-        display: flex;
-        align-items: stretch;
-    }
-    nav ul
-    {
-        margin: 0px;
-        /* border: 1px solid green; */
-        list-style-type: none;
-        display: flex;
-        align-self: stretch;
+#liens_haut
+{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav
+{
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: stretch;
+}
+nav ul
+{
+    margin: 0px;
+    /* border: 1px solid green; */
+    list-style-type: none;
+    display: flex;
+    align-self: stretch;
+
+}
+nav li
+{
+    /* border: 1px solid green; */
+    height: 50px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    margin-right: 0px;
+    display:flex;
+    align-self: flex-end;
+}
     
-    }
-    nav li
-    {
-        /* border: 1px solid green; */
-        height: 50px;
-        /* padding-left: 10px;
-        padding-right: 10px; */
-        margin-right: 0px;
-        display:flex;
-        align-self: flex-end;
-    }
+nav a
+{
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+}
     
-    nav a
-    {
-        padding-left: 12px;
-        padding-right: 12px;
-        font-size: 1.5em;
-        color: black;
-        text-decoration: none;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    nav a:hover
-    {
-        color: #0065FC;
-        border-top: 4px solid #0065FC;
-    }
-    
-    #inscription a
-    {
-        font-size: 1.5em;
-        color: #0065FC;
-        margin-left: 10px;
-        text-decoration: none;
-        margin-right: 50px;
-    }
-/* } */
+#inscription a
+{
+    font-size: 1.5em;
+    color: #0065FC;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 50px;
+}
 
 
 
@@ -268,7 +265,6 @@ header #logo
     position: absolute;
     margin-top: 25px;
     margin-left: 40px;
-    font-weight: Extra-bold;
 }
 
 #hebergement span
@@ -363,7 +359,7 @@ header #logo
     position: absolute;
     margin-top: 25px;
     margin-left:40px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 #populaire .chart
 {
@@ -378,74 +374,70 @@ header #logo
     margin-top: 5px;
 }
 
-/* @media screen and (min-width: 1024px)
-{ */
-    #cartes_populaires
-    {
-        margin-top: 65px;
-        height:80%;
-        margin-left: 7%;
-        margin-right: 7%;
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+#cartes_populaires
+{
+    margin-top: 65px;
+    height:80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
-        flex-basis: max-content;
-    }
-    #populaire .carte_populaire
-    {
-        width: 85%;
+    flex-basis: max-content;
+}
+#populaire .carte_populaire
+{
+    width: 85%;
 
-        min-width: 255px;
-        flex: 2 1 25%;
-        height: 140px;
-        margin-right: 4%;
-        margin-left: 4%;
+    min-width: 255px;
+    flex: 2 1 25%;
+    height: 140px;
+    margin-right: 4%;
+    margin-left: 4%;
 
-        margin-bottom:7%;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start; 
-        flex-wrap: wrap;
-        color: black;
-        text-decoration: none;
-        position: relative;
-        transition: width 0.2s, height 0.2s;
-    }
+    margin-bottom:7%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start; 
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: width 0.2s, height 0.2s;
+}
    
-    #populaire .carte_populaire img
-    {
-        object-fit: cover;
-        width: 40%;
-        height: 95%;
-        margin-left: 5px;
-        margin-top: 5px;
-        border-radius: 20px 0px 0px 20px;
-        align-self: center;
-    }
-    #populaire .carte_populaire p
-    {
-        font-size: 0.9em;
-        margin-left: 12px;
-        margin-bottom: 0px;
-        margin-top: 10px;
-        width: 50%;
-    }
-    #populaire .carte_populaire .notation
-    {
-        /* bottom: 15px; */
-        bottom: 10%;
-        left: 42%;
-        /* right: 90px; */
-        /* border:1px solid black; */
-        position: absolute;
-    }
-/* } */
+#populaire .carte_populaire img
+{
+    object-fit: cover;
+    width: 40%;
+    height: 95%;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 20px 0px 0px 20px;
+    align-self: center;
+}
+#populaire .carte_populaire p
+{
+    font-size: 0.9em;
+    margin-left: 12px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    width: 50%;
+}
+#populaire .carte_populaire .notation
+{
+    bottom: 10%;
+    left: 42%;
+    /* border:1px solid black; */
+    position: absolute;
+}
+
 #populaire .carte_populaire:hover
 {
     -webkit-transform: scale(1.1); 
@@ -485,22 +477,7 @@ header #logo
         "zone1 zone2 zone4 zone6"
         "zone1 zone3 zone4 zone6";
 }
-@media screen and (max-width: 768px)
-{
-    #cartes_activites
-    {
-        grid-template-columns: 48% 48%;
-        column-gap: 4%;
-        grid-template-rows: repeat(4, 250px);
-        row-gap: 50px;
-        grid-template-areas:
-        "zone1 zone2"
-        "zone1 zone3"
-        "zone4 zone5"
-        "zone4 zone6";
-    }
-    
-}
+
 .carte_activite
 {
     text-decoration: none;
@@ -580,50 +557,239 @@ header #logo
 /* SECTION FOOTER */
 footer
 {
-    margin-top: 40px;
-    display:flex;
     background-color:#F2F2F2;
+}
+#text_footer
+{
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+    display:flex;
     flex-wrap: wrap;
     /* justify-content: space-around; */
 }
-footer ul
+#text_footer ul
 {
     list-style-type: none;
     line-height: 170%;
     padding: 0;
 }
-footer a
+#text_footer a
 {
     text-decoration: none;
     color: black;
 }
 
-footer #apropos
+#text_footer #apropos
 {
-    /* margin-top: 20px; */
-    /* margin-right: 50px; */
-    margin-left: 70px;
-    /* margin-right: calc(16% - 50px); */
+    margin-right: 12%;
+}
 
-    margin-right: 9%;
-    /* margin-bottom: 20px; */
+#text_footer #nos_hebergements
+{
+    margin-right: 14%;
+}
+
+@media screen and (max-width: 818px)
+{
+    #cartes_activites
+    {
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+        grid-template-rows: repeat(4, 250px);
+        row-gap: 50px;
+        grid-template-areas:
+        "zone1 zone2"
+        "zone1 zone3"
+        "zone4 zone5"
+        "zone4 zone6";
+    } 
+}
+
+@media screen and (max-width: 679px)
+{
+    body
+    {
+        font-size: 0.9em;
+    }
+    #bloc_nofooter
+    {
+        margin-left: 0;
+    }
+    header
+    {
+        margin-bottom: 0px;
+        position: relative;
+    }
+    header #logo
+    {
+        position: absolute;
+        top: -40px;
+        margin-left: 5px;
+    }
+    #bloc_nofooter
+    {
+        margin: 0px;
+    }
+    #liens_haut
+    {
+        margin-top: 50px;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    nav
+    {
+        width: 100%;
+    }
+    nav ul
+    {
+        width: 100%;
+        padding: 0;
+        justify-content: center;;
+    }
+    nav li
+    {
+        width: 50%;
+        margin: 0px;
+    }
+    nav a
+    {
+        width: 100%;
+        height: 100%;
+        font-size: 1em;
+        justify-content: center;
+        border-bottom: 4px solid #F2F2F2;
+    }
+    nav a:hover
+    {
+        border-top: 0px;
+        border-bottom: 4px solid #0065FC;
+    }
+    #inscription
+    {
+        margin-right: 5%;
+        margin-bottom: 10px;
+    }
+    #inscription a
+    {
+        height: 50px;
+        margin-right: 8%;
+    }
+
+    #slogan p
+    {
+        margin-top: 20px;
+        line-height: 1.6;
+        margin-left: 15px;
+    }
+
+    #recherche
+    {
+        margin-left: 15px;
+        position: relative;
+    }
     
-}
-
-footer #nos_hebergements
-{
-    /* margin-top: 20px; */
-    /* margin-right: calc(16% - 50px); */
-    margin-left: 70px;
-    margin-right: 15%;
-    /* margin-bottom: 20px; */
-}
-
-footer #assistance
-{
-
-    /* margin-top: 20px; */
-    /* margin-right: 50px; */
-    margin-left:70px;
-    /* margin-bottom: 20px; */
+    .bouton_bleu
+    {
+        display: none;
+    }
+    .icon_recherche
+    {
+        position: absolute;
+        height: 99%;
+        left: 240px;
+        font-size: 1.2em;
+        text-align: center;
+        text-decoration: none;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px 15px 15px 15px; 
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #filtres
+    {
+        margin-left: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #filtres h4
+    {
+        margin-bottom: 10px;
+    }
+    #phrase_info
+    {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    #populaire
+    {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    #populaire .carte_populaire
+    {
+        height: 100px;
+    }
+    #hebergement
+    {
+        width: 100%;
+        border-radius: 0px;
+        background-color: white;
+    }
+    #hebergement span 
+    {
+        bottom: 10px;
+        margin-left: 15px;
+        font-size: 1.1em;
+    }
+    #corps h4 
+    {
+        margin-left: 15px;
+        font-size: 1.3em;
+        margin-left: 15px;
+        left:0;
+    }
+    #activite
+    {
+        width: 100%;
+    }
+    #cartes_activites
+    {
+        margin-top: 60px;
+        margin-left: 15px;
+        grid-template-columns: 95%;
+        grid-template-rows: repeat(6, 120px);
+        row-gap: 20px;
+        grid-template-areas:
+        "zone1"
+        "zone2"
+        "zone3"
+        "zone4"
+        "zone5"
+        "zone6";
+    }
+    .carte_activite .petite
+    {
+        height:75%;
+    }
+    .carte_activite .grande
+    {
+        height:75%;
+    }
+    .carte_activite .moyenne
+    {
+        height:75%;
+    }
+    #text_footer
+    {
+        margin-left: 15px;
+        margin-right: 0px;
+        flex-direction: column;
+        
+    }
 }

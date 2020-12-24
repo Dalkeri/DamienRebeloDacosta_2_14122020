@@ -602,10 +602,10 @@ footer #apropos
 {
     /* margin-top: 20px; */
     /* margin-right: 50px; */
-    margin-left: 50px;
-    margin-right: calc(16% - 50px);
+    margin-left: 70px;
+    /* margin-right: calc(16% - 50px); */
 
-    /* margin-right: 16%; */
+    margin-right: 9%;
     /* margin-bottom: 20px; */
     
 }
@@ -613,15 +613,17 @@ footer #apropos
 footer #nos_hebergements
 {
     /* margin-top: 20px; */
-    margin-right: calc(16% - 50px);
-    margin-left: 50px;
+    /* margin-right: calc(16% - 50px); */
+    margin-left: 70px;
+    margin-right: 15%;
     /* margin-bottom: 20px; */
 }
 
 footer #assistance
 {
+
     /* margin-top: 20px; */
     /* margin-right: 50px; */
-    margin-left:50px;
+    margin-left:70px;
     /* margin-bottom: 20px; */
 }

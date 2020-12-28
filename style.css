@@ -413,12 +413,12 @@ nav a:hover
 }
    
 #populaire .carte_populaire img
-{border:1px solid black;
+{
     object-fit: cover;
     width: 40%;
-    height: 95%;
+    height: 130px;
     margin-left: 5px;
-    margin-top: 3px;
+    margin-top: 5px;
     border-radius: 20px 0px 0px 20px;
     align-self: center;
 }

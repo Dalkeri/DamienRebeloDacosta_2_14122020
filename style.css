@@ -150,9 +150,11 @@ nav a:hover
     align-items: center;
     margin-bottom: 10px;
 }
-#filtres h4
+#filtres .titre_filtre
 {
     display: flex;
+    font-weight: bold;
+    font-size: 1.2em;
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -255,15 +257,6 @@ nav a:hover
 
     position: relative;
 }
-
-#hebergement h4
-{
-    position: absolute;
-    font-size: 1.1em;
-    margin-top: 25px;
-    margin-left: 45px;
-}
-
 #hebergement span
 {
     position: absolute;
@@ -271,11 +264,17 @@ nav a:hover
     bottom: 35px;
     margin-left: 45px;
 }
-
+#hebergement #hebergement_titre
+{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 25px;
+    margin-left: 45px;
+}
 #cartes_hebergements
 {
     margin-top: 65px;
-    /* min-width: 675px; */
     margin-right: 4%;
     margin-left: 4%;
     margin-bottom: 50px;
@@ -293,7 +292,6 @@ nav a:hover
     margin-left: 1.7%;
     min-width: 200px; 
     flex: 2 1 25%;
-    height: 140px;
     height: 190px;
     margin-bottom: 3%;
     background-color: white;
@@ -351,12 +349,13 @@ nav a:hover
     background-color: #F2F2F2;
     position: relative;
 }
-#populaire h4
+#populaire #populaire_titre
 {
     position: absolute;
     margin-top: 25px;
     margin-left:45px;
     font-size: 1.4em;
+    font-weight: bold;;
 }
 #populaire .chart
 {
@@ -454,10 +453,11 @@ nav a:hover
     /* height: 500px; */
     /* margin-bottom: 100px; */
 }
-#activite h4
+#activite #activite_titre
 {
     position: absolute;
     font-size: 1.4em;
+    font-weight: bold;   
     margin: 0;
     top: 15px;
     left: 5px;
@@ -607,6 +607,20 @@ footer
         "zone4 zone5"
         "zone4 zone6";
     } 
+
+    #text_footer
+    {
+        justify-content: center;
+    }
+    #text_footer #apropos
+    {
+        margin-right: 5%;
+    }
+
+    #text_footer #nos_hebergements
+    {
+        margin-right: 5%;
+    }
 }
 
 @media screen and (max-width: 679px)
@@ -725,7 +739,7 @@ footer
         flex-direction: column;
         align-items: flex-start;
     }
-    #filtres h4
+    #filtres .titre_filtre
     {
         margin-bottom: 10px;
     }
@@ -740,10 +754,19 @@ footer
         margin: 0px;
         border-radius: 0px;
     }
-    /* #populaire .carte_populaire
+    #populaire .carte_populaire
     {
-        height: 100px;
-    } */
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #populaire #populaire_titre
+    {
+        margin-left: 15px;
+        font-size: 1.3em;
+        font-weight: bold;
+        left:0;
+    }
     #hebergement
     {
         width: 100%;
@@ -756,16 +779,23 @@ footer
         margin-left: 15px;
         font-size: 1.1em;
     }
-    #corps h4 
+    #hebergement #hebergement_titre
     {
         margin-left: 15px;
         font-size: 1.3em;
-        margin-left: 15px;
+        font-weight: bold;
         left:0;
     }
     #activite
     {
         width: 100%;
+    }
+    #activite #activite_titre
+    {
+        margin-left: 15px;
+        font-size: 1.3em;
+        font-weight: bold;
+        left:0;
     }
     #cartes_activites
     {
@@ -799,6 +829,9 @@ footer
         margin-left: 15px;
         margin-right: 0px;
         flex-direction: column;
-        
+    }
+    #text_footer #apropos
+    {
+        margin-top:15px;
     }
 }

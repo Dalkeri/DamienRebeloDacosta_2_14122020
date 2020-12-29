@@ -373,7 +373,7 @@ nav a:hover
 
 #cartes_populaires
 {
-    margin-top: 65px;
+    margin-top: 80px;
     height:80%;
     margin-left: 0%; /*7*/
     margin-right: 0%;
@@ -466,10 +466,10 @@ nav a:hover
     /* border:2px solid blue; */
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
-    column-gap: 4%;
-    grid-template-rows: 250px 50px 250px;
-    row-gap: 50px;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 3%;
+    grid-template-rows: 175px 50px 175px;
+    row-gap: 25px;
     grid-template-areas:
         "zone1 zone2 zone4 zone5"
         "zone1 zone2 zone4 zone6"
@@ -522,21 +522,21 @@ nav a:hover
 {
     object-fit: cover;
     width: 100%;
-    height: 95%;
+    height: 89%;
     border-radius: 20px 20px 0px 0px;
 }
 .carte_activite .moyenne
 {
     object-fit: cover;
     width: 100%;
-    height: 87%;
+    height: 80%;
     border-radius: 20px 20px 0px 0px;
 }
 .carte_activite .petite
 {
     object-fit: cover;
     width: 100%;
-    height: 82%;
+    height: 71%;
     border-radius: 20px 20px 0px 0px;
 }
 .carte_activite p
@@ -598,7 +598,7 @@ footer
     {
         grid-template-columns: 48% 48%;
         column-gap: 4%;
-        grid-template-rows: repeat(4, 250px);
+        grid-template-rows: repeat(4, 200px);
         row-gap: 50px;
         grid-template-areas:
         "zone1 zone2"

@@ -237,7 +237,6 @@ nav a:hover
     flex-wrap: wrap;
     flex-basis: max-content;
     justify-content: center;
-
 }
 
 #hebergement
@@ -252,14 +251,13 @@ nav a:hover
     /* flex-wrap: wrap; */
     background-color:#F2F2F2;
     border-radius: 20px 20px 20px 20px;
-
     position: relative;
 }
 
 #hebergement h4
 {
     position: absolute;
-    font-size: 1.1em;
+    font-size: 1.4em;
     margin-top: 25px;
     margin-left: 45px;
 }
@@ -274,11 +272,10 @@ nav a:hover
 
 #cartes_hebergements
 {
-    margin-top: 65px;
-    /* min-width: 675px; */
+    margin-top: 80px;
     margin-right: 4%;
     margin-left: 4%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -356,6 +353,7 @@ nav a:hover
     position: absolute;
     margin-top: 25px;
     margin-left:45px;
+    margin-bottom: 30px;
     font-size: 1.4em;
 }
 #populaire .chart
@@ -740,13 +738,11 @@ footer
         margin: 0px;
         border-radius: 0px;
     }
-    /* #populaire .carte_populaire
-    {
-        height: 100px;
-    } */
     #hebergement
     {
         width: 100%;
+        margin-right: 0;
+        margin-left: 0;
         border-radius: 0px;
         background-color: white;
     }

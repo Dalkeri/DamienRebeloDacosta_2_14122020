@@ -820,11 +820,16 @@ footer
     {
         height:75%;
     }
+    #text_footer ul
+    {
+        line-height: 2em;
+    }
     #text_footer
     {
         margin-left: 15px;
         margin-right: 0px;
         flex-direction: column;
-        
+        font-size: 1.1em;
+        /* line-height: 1.2em; */
     }
 }

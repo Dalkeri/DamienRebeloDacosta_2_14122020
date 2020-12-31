@@ -333,7 +333,7 @@ nav a:hover
 .carte_hebergement p
 {
     margin: 5px 0px 0px 10px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .notation .full
 {
@@ -432,7 +432,8 @@ nav a:hover
 }
 #populaire .carte_populaire p
 {
-    font-size: 0.9em;
+    font-size: 1em;
+    line-height: 1.1em;
     margin-left: 12px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -556,7 +557,7 @@ nav a:hover
 {
     /* border:1px solid black; */
     height: 45px;
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 0px;
     display: flex;
     align-items: center;

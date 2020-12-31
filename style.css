@@ -375,11 +375,12 @@ nav a:hover
     margin-left: 90%;
     font-size: 1.2em;
 }
-.notation
+#hebergement .carte_hebergement .notation
 {
     margin-left: 10px;
     margin-top: 5px;
-    letter-spacing: -2px;
+    letter-spacing: -1.5px;
+    font-size: 0.9em;
 }
 
 #cartes_populaires
@@ -430,10 +431,11 @@ nav a:hover
     border-radius: 20px 0px 0px 20px;
     align-self: center;
 }
+
 #populaire .carte_populaire p
 {
     font-size: 1em;
-    line-height: 1.1em;
+    /* line-height: 1.1em; */
     margin-left: 12px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -441,11 +443,12 @@ nav a:hover
 }
 #populaire .carte_populaire .notation
 {
-    bottom: 10%;
+    bottom: 6%;
     left: 42%;
-    letter-spacing: -2px;
-
-    /* border:1px solid black; */
+    margin-left: 10px;
+    margin-top: 5px;
+    letter-spacing: -1.5px;
+    font-size: 0.85em;
     position: absolute;
 }
 
@@ -459,13 +462,10 @@ nav a:hover
 
 #activite
 {
-    /* border:3px solid green; */
     order: 3;
     margin-top: 30px;
     position: relative;
     width: 95%;
-    /* height: 500px; */
-    /* margin-bottom: 100px; */
 }
 #activite h2
 {
@@ -793,6 +793,7 @@ footer
         margin: 0px;
         border-radius: 0px;
     }
+
     #hebergement
     {
         width: 100%;

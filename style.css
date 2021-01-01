@@ -61,7 +61,6 @@ nav a
 {
     padding-left: 40px;
     padding-right: 40px;
-    /* font-size: 1.5em; */
     color: black;
     text-decoration: none;
     display: flex;
@@ -76,7 +75,6 @@ nav a:hover
     
 #inscription a
 {
-    /* font-size: 1.5em; */
     font-weight: bold;
     color: #0065FC;
     margin-left: 10px;
@@ -95,15 +93,9 @@ nav a:hover
     font-weight: bold;
     font-size: 1.4em;
 }
-/* #slogan span
-{
-    line-height: 1em;
-} */
-
 
 #search
 {
-    /* border:1px solid black; */
     display: flex;
     align-items: stretch;
     height: 50px;
@@ -199,7 +191,6 @@ nav a:hover
 }
 .filter span
 {
-    /* border: 1px solid rgb(74, 12, 110); */
     margin-left: 15px;
     margin-right: 20px;
     font-size: 1.1em;
@@ -209,13 +200,11 @@ nav a:hover
 }
 .filter:hover > i 
 {
-    /* color: red; */
     color:white;
     background-color: #0065FC;
 }
 .filter:hover 
 {
-    /* color: red; */
     color:white;
     background-color: #0065FC;
 }
@@ -259,7 +248,6 @@ nav a:hover
     margin-bottom: 20px;
     flex: 2 1 60%;
     display: flex;
-    /* flex-wrap: wrap; */
     background-color:#F2F2F2;
     border-radius: 20px 20px 20px 20px;
     position: relative;
@@ -387,7 +375,7 @@ nav a:hover
 {
     margin-top: 80px;
     height:80%;
-    margin-left: 0%; /*7*/
+    margin-left: 0%; 
     margin-right: 0%;
     display:flex;
     flex-direction: row;
@@ -435,7 +423,6 @@ nav a:hover
 #popular .popular_card p
 {
     font-size: 1em;
-    /* line-height: 1.1em; */
     margin-left: 12px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -472,12 +459,10 @@ nav a:hover
     position: absolute;
     font-size: 1.4em;
     margin: 0;
-    /* top: 15px; */
     left: 5px;
 }
 #activty_cards
 {
-    /* border:2px solid blue; */
     margin-top: 50px;
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
@@ -499,7 +484,6 @@ nav a:hover
     transition: width 0.2s, height 0.2s;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
 }
 .activty_card:hover
 {
@@ -555,18 +539,14 @@ nav a:hover
 }
 .activty_card p
 {
-    /* border:1px solid black; */
     height: 45px;
     font-size: 1em;
     margin: 0px;
     display: flex;
     align-items: center;
     padding-left: 12px;
-    /* margin-top: 20px; */
 }
 
-
-/* SECTION FOOTER */
 footer
 {
     background-color:#F2F2F2;
@@ -579,8 +559,6 @@ footer
     margin-left: 65px;
     margin-right: 65px;
     display:flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-around; */
 }
 #text_footer p
 {
@@ -601,14 +579,11 @@ footer
 #text_footer #about
 {
     margin-right: 15%;
-    /* margin-left: 65px; */
-
 }
 
 #text_footer #hebergements_footer
 {
     margin-right: 20%;
-    /* margin-left: 65px; */
 }
 #text_footer #assistance
 {
@@ -670,7 +645,7 @@ footer
     header #logo
     {
         position: absolute;
-        top: 15px; /*-30*/
+        top: 15px; 
         margin-left: 20px;
     }    
     #bloc_nofooter
@@ -679,7 +654,6 @@ footer
     }
     #top_link
     {
-        /* margin-top: 50px; */
         height: 110px;
         justify-content: flex-start;
         flex-direction: row-reverse;
@@ -694,7 +668,7 @@ footer
         width: 100%;
         height: 50px;
         padding: 0;
-        justify-content: center;;
+        justify-content: center;
     }
     nav li
     {
@@ -730,7 +704,6 @@ footer
     #slogan
     {
         margin-top: 40px;
-        /* line-height: 1.6; */
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -860,7 +833,6 @@ footer
     }
     #text_footer
     {
-        /* justify-content: space-between; */
         margin-left: 15px;
         margin-right: 0px;
         font-size: 1.15em;

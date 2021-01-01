@@ -665,13 +665,14 @@ footer
         margin: 0;
         width: 100%;
         position: relative;
+        font-size: 1.1em;
     }
     header #logo
     {
         position: absolute;
         top: 15px; /*-30*/
         margin-left: 20px;
-    }
+    }    
     #bloc_nofooter
     {
         margin: 0px;
@@ -726,7 +727,6 @@ footer
         font-size: 1.1em;
         margin-right: 8%;
     }
-
     #slogan
     {
         margin-top: 40px;
@@ -738,18 +738,20 @@ footer
     {
         line-height: 3.5em;
     }
-
     #recherche
     {
         margin-left: 15px;
         position: relative;
+    }
+    #recherche #map_icon, #recherche #recherche_ville
+    {
+        font-size: 1.2em;
     }
     #recherche_ville
     {
         width: 68%;
         max-width: 260px;
     }   
-    
     .bouton_bleu
     {
         display: none;
@@ -792,10 +794,15 @@ footer
         width: 100%;
         margin: 0px;
         border-radius: 0px;
+        font-size: 1.1em;
     }
-
+    #populaire .chart
+    {
+        font-size: 1.4em;
+    }
     #hebergement
     {
+        font-size: 1.1em;
         width: 100%;
         margin-right: 0;
         margin-left: 0;
@@ -811,13 +818,14 @@ footer
     #corps h2
     {
         margin-left: 15px;
-        font-size: 1.3em;
+        font-size: 1.4em;
         margin-left: 15px;
         left:0;
     }
     #activite
     {
         width: 100%;
+        font-size: 1.1em;
     }
     #cartes_activites
     {
@@ -855,7 +863,7 @@ footer
         /* justify-content: space-between; */
         margin-left: 15px;
         margin-right: 0px;
-        font-size: 1.1em;
+        font-size: 1.15em;
     }
     #text_footer #apropos, #text_footer #nos_hebergements, #text_footer #assistance
     {

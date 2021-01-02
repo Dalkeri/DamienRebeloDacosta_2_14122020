@@ -371,7 +371,7 @@ nav a:hover
     font-size: 0.9em;
 }
 
-#populars_cards
+#popular_cards
 {
     margin-top: 80px;
     height:80%;
@@ -516,21 +516,21 @@ nav a:hover
 {
     grid-area: zone6;
 }
-.activty_card .grande
+.activty_card .big_card
 {
     object-fit: cover;
     width: 100%;
     height: 89%;
     border-radius: 20px 20px 0px 0px;
 }
-.activty_card .moyenne
+.activty_card .medium_card
 {
     object-fit: cover;
     width: 100%;
     height: 80%;
     border-radius: 20px 20px 0px 0px;
 }
-.activty_card .petite
+.activty_card .small_card
 {
     object-fit: cover;
     width: 100%;
@@ -815,15 +815,15 @@ footer
         "zone5"
         "zone6";
     }
-    .activty_card .petite
+    .activty_card .small_card
     {
         height:75%;
     }
-    .activty_card .grande
+    .activty_card .big_card
     {
         height:75%;
     }
-    .activty_card .moyenne
+    .activty_card .medium_card
     {
         height:75%;
     }
